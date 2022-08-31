@@ -1,0 +1,36 @@
+:root {
+	/* Theme Colors */
+	--theme-primary: #283d70;
+	--theme-primary-hover: #0299dc;
+	--theme-on-primary: #e0ddd5;
+
+	--theme-bg: #e0ddd5;
+	--theme-on-bg: #2e3546;
+
+	--theme-surface-1: #eeeeee;
+	--theme-on-surface-1: #2e3546;
+
+	--theme-surface-2: #0299dc;
+	--theme-on-surface-2: #eeeeee;
+
+	/* Theme Shapes */
+	/* Set this to 0 if you want all of the rounded cards, images, etc to be straight edges */
+	--theme-shape-radius: clamp(1rem, 2rem, 3rem);
+	--theme-button-border-radius: 3rem;
+
+	/* Theme Transition */
+	--theme-transition: 0.2s ease-in-out;
+
+	/* Theme Layout */
+	--section-margin: 3rem;
+	--theme-grid-gap: 1rem;
+	--container-max-width: 1440px;
+	--container-max-width-narrow: 960px;
+	--container-padding: 0 1rem;
+
+	--theme-blog-post-header-width: 1200px;
+
+	/* Theme Fonts */
+	--theme-font-family-serif: 'Audiowide', cursive;
+	--theme-font-family-sans:  'Source Code Pro', monospace;
+}
